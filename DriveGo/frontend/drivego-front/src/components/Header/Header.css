@@ -1,0 +1,33 @@
+.foto-logo {
+    width: 10rem;
+}
+
+.Navbar {
+    background-color: rgb(122, 121, 121);
+}
+
+/* Links padrão */
+.nav-link {
+  color: white; /* cor da fonte */
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent; /* borda inicial invisível */
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out; /* suaviza transições */
+  font-weight: 500;
+}
+
+/* Hover com animação */
+.nav-custom .nav-link:hover {
+  color: #f5f5f5;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: white;
+  transform: scale(1.05);
+}
+
+/* Link ativo (se usar NavLink do React Router) */
+.nav-custom .nav-link.active {
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+  border-color: #333;
+}
