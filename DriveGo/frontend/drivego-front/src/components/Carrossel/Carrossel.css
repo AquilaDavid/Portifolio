@@ -1,0 +1,14 @@
+.custom-carousel {
+  height: 250px; /* ajuste a altura como quiser */
+  overflow: hidden;
+}
+
+.custom-carousel .carousel-item {
+  height: 100%;
+}
+
+.custom-carousel img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

@@ -3,17 +3,20 @@
 }
 
 .Navbar {
-    background-color: rgb(122, 121, 121);
+    background-color: #cfb6ff;
 }
 
 /* Links padrão */
 .nav-link {
   color: white; /* cor da fonte */
-  padding: 0.5rem 1rem;
-  border: 2px solid transparent; /* borda inicial invisível */
+  background-color: #333;
+  padding: 0.5rem 2rem;
+  border: 2px solid #504f4f; /* borda inicial invisível */
   border-radius: 8px;
+  border-color: #f5f5f5;
   transition: all 0.3s ease-in-out; /* suaviza transições */
   font-weight: 500;
+  margin-right: 1rem;
 }
 
 /* Hover com animação */
