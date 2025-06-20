@@ -1,4 +1,5 @@
-import { Container, Image, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
 
 import { NavLink } from "react-router-dom";
 import "./Header.css";
@@ -11,7 +12,7 @@ export default function Header() {
           <Navbar.Brand as={NavLink} to="/Home">
             <img
               className="foto-logo"
-              src="public\imagens\logo2 (1).png"
+              src="/imagens/logo2 (1).png"
               alt="Logo da loja"
             />
           </Navbar.Brand>
@@ -21,9 +22,9 @@ export default function Header() {
               <Nav.Link as={NavLink} to="/Home">
                 Home
               </Nav.Link>
-              <Nav.Link as={NavLink} to = '/Servicos'>Serviços</Nav.Link>
-              <Nav.Link as={NavLink} to = '/Planos'>Planos</Nav.Link>
-              <Nav.Link as={NavLink} to = '/Contatos'>Contato</Nav.Link>
+              <Nav.Link as={HashLink} to ="/Home#planos">Planos</Nav.Link>
+              <Nav.Link as={HashLink} to ="/Home#carros">Carros</Nav.Link>
+              <Nav.Link as={NavLink} to = '/Contato'>Contato</Nav.Link>
               <Nav.Link as={NavLink} to = '/Login'>Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
