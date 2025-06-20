@@ -1,7 +1,7 @@
 export default function Login(){
     return (
         <>
-       <div>bem vindo ao login</div>
+       <h1>bem vindo ao login</h1>
         </>
     )
 }
