@@ -7,7 +7,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <>
-      <Navbar expand="lg" style={{ backgroundColor: "#19363f" }} variant="dark">
+      <Navbar id="Header" expand="lg" style={{ backgroundColor: "#19363f" }} variant="dark">
         <Container>
           <Navbar.Brand as={NavLink} to="/Home">
             <img
@@ -24,7 +24,7 @@ export default function Header() {
               </Nav.Link>
               <Nav.Link as={HashLink} to ="/Home#planos">Planos</Nav.Link>
               <Nav.Link as={HashLink} to ="/Home#carros">Carros</Nav.Link>
-              <Nav.Link as={NavLink} to = '/Contato'>Contato</Nav.Link>
+              <Nav.Link as={HashLink} to = 'Home#Contato'>Contato</Nav.Link>
               <Nav.Link as={NavLink} to = '/Login'>Login</Nav.Link>
             </Nav>
           </Navbar.Collapse>
