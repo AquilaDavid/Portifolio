@@ -1,0 +1,27 @@
+.card-plano {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+}
+
+.card-plano:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Cores dos planos */
+.card-plano.cor-1 {
+  background-color: #5a7782;
+  color: #fff;
+}
+
+.card-plano.cor-2 {
+  background-color: #708d98;
+  color: #fff;
+}
+
+.card-plano.cor-3 {
+  background-color: #45626c;
+  color: #fff;
+}
