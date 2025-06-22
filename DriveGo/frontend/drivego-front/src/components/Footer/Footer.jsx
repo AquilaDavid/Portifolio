@@ -1,8 +1,9 @@
 import { Container } from "react-bootstrap";
+import './Footer.css'
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#19363f", color: "#fff", padding: "20px 0", textAlign: "center" }}>
+    <footer className="footer" >
       <Container>
         <p>&copy; {new Date().getFullYear()} DriveGo - Todos os direitos reservados</p>
       </Container>
