@@ -1,7 +1,6 @@
 import Carrossel from "../components/Carrossel/Carrossel.jsx";
 import Cads_planos from "../components/Cards/Cards_planos/Cards_planos.jsx";
 import Cards_carros from "../components/Cards/Cards_Carros/Cards_carros.jsx";
-import carros from "../datasets/Carros.js";
 import Contato from "../components/Contatos/Contato.jsx";
 
 function Home() {
@@ -9,7 +8,7 @@ function Home() {
     <>
       <Carrossel />
       <Cads_planos />
-      <Cards_carros lista={carros} />
+      <Cards_carros  />
       <Contato/>
     </>
   );
