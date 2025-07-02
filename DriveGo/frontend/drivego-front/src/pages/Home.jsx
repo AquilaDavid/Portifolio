@@ -7,8 +7,8 @@ function Home() {
   return (
     <>
       <Carrossel />
-      <Cads_planos />
       <Cards_carros  />
+      <Cads_planos />
       <Contato/>
     </>
   );

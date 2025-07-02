@@ -1,4 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
+import './Carrossel.css'
 
 
 function Carrossel() {
@@ -12,7 +13,7 @@ function Carrossel() {
           style={{ height: "400px", objectFit: "cover" }}
         />
         <Carousel.Caption>
-          <h2 style={{ fontWeight: "bold" }}>ALUGUE SEU CARRO COM CONFORTO E SEGURANÇA</h2>
+          <h2 className="frase-banner">ALUGUE SEU CARRO COM CONFORTO E SEGURANÇA</h2>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

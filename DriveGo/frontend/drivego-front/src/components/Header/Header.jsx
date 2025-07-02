@@ -12,7 +12,7 @@ export default function Header() {
           <Navbar.Brand as={NavLink} to="/Home">
             <img
               className="foto-logo"
-              src="/imagens/logo2 (1).png"
+              src="public\imagens\Imagem_do_WhatsApp_de_2025-06-18_à_s__19.17.41_497250b2-removebg-preview.png"
               alt="Logo da loja"
             />
           </Navbar.Brand>
