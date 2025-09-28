@@ -1,8 +1,8 @@
 import { Card as CardBS, Container, Row, Col } from "react-bootstrap";
 import { Envelope, Phone, GeoAlt } from "react-bootstrap-icons";
 import "./Contato.css";
-import React, { useState } from "react";
-import Card_Contato from "../../datasets/Cards_Contatos";
+import React, { useState, useEffect } from "react";
+
 
 // Mapeamento dos ícones
 const Icones = {
@@ -12,7 +12,14 @@ const Icones = {
 };
 
 export default function Contato() {
-  const [Cards_Contato] = useState(Card_Contato);
+  const [Cards_Contato, setCards_Contato] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3000/contatos")
+      .then((response) => response.json())
+      .then((data) => setCards_Contato(data))
+      .catch((error) => console.error("Error fetching data:", error));
+  }, []);
 
   return (
     <Container className="py-5" id="Contato">
