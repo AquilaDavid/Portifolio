@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx";
-import Login from "./pages/Login.jsx";
+import SobreEmpresa from "./pages/SobreEmpresa.jsx";
 import Layout from "./layouts/Layout.jsx";
 import './index.css'
 
@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "/Home", element: <Home /> },
-      { path: "/Login", element: <Login /> },
+      { path: "/SobreEmpresa", element: <SobreEmpresa /> },
     ],
   },
 ]);

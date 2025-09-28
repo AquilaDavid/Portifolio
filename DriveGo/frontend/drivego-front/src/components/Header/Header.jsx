@@ -25,7 +25,7 @@ export default function Header() {
               <Nav.Link as={HashLink} to ="/Home#planos">Planos</Nav.Link>
               <Nav.Link as={HashLink} to ="/Home#carros">Carros</Nav.Link>
               <Nav.Link as={HashLink} to = 'Home#Contato'>Contato</Nav.Link>
-              <Nav.Link as={NavLink} to = '/Login'>Login</Nav.Link>
+              <Nav.Link as={NavLink} to = '/SobreEmpresa'>Sobre Nós</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

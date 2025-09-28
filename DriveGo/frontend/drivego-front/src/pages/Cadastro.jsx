@@ -1,7 +1,7 @@
-export default function Cadastro() {
+export default function SobreEmpresa() {
     return(
         <>
-        <h1>Bem vindo a area de Cadastro do usuario</h1>
+        <h1>Bem vindo a area de Sobre da empresa</h1>
         </>
     )
 }
